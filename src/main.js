@@ -11,8 +11,6 @@ app.use(router)
 app.mount('#app')
 
 
-function test(a, b) {
-console.log(1, a, b)
+function test(a,b) {
+console.log(1,a,b)
 }
-
-test(1, 2)
