@@ -23,7 +23,7 @@
     },
     "lint-staged": {
         "*.{js,jsx,vue}": [
-            "npm run prettier:check",
+            "prettier tabWidth 4 --write",
             "eslint --fix",
             "git add"
         ]
